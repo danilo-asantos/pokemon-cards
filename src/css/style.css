@@ -18,12 +18,10 @@ header{
 }
 
 header .logo,
-header .imagem-botao{
+#imagem-botao,
+#botao-alterar-tema{
     width: 30px;
     transition: 0.2s ease-in-out;
-}
-
-#botao-alterar-tema{
     background: none;
     border: none;
 }
@@ -80,36 +78,32 @@ main .cartao-pokemon .gif{
     height: 81px;
 }
 
-.tipos{
+li .tipos{
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    padding: 3px;
 }
 
 .tipo-grama{
     background-color: #7ac74c;
-    border-radius: 5px;
 }
 
 .tipo-veneno{
     background-color: #df67ddfb;
-    border-radius: 5px;
 }
 
 .tipo-fogo{
     background-color: red;
-    border-radius: 5px;
 }
 
 .tipo-agua{
     background-color: #6390f0;
-    border-radius: 5px;
 }
 
 .tipo-inseto{
     background-color: #a6b91a;
-    border-radius: 5px;
 }
 
 main .descricao{
